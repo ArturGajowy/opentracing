@@ -1,7 +1,7 @@
 cabal-version: 2.2
 
 name:           opentracing
-version:        0.2.1
+version:        0.2.2
 synopsis:       OpenTracing for Haskell
 homepage:       https://github.com/kim/opentracing
 bug-reports:    https://github.com/kim/opentracing/issues
@@ -49,7 +49,7 @@ library
   build-depends:
       aeson >= 1.1
     , async >= 2.1
-    , base  >= 4.9 && < 4.16
+    , base  >= 4.9 && < 4.17
     , base64-bytestring >= 1.0
     , bytestring >= 0.10
     , case-insensitive >= 1.2
